@@ -5,13 +5,19 @@ body{
 
 main{
     display: flex;
-    border: 1px solid black;
+    border: 1px solid #E8EBE4; 
+;
 }
 
 .chat{
     display: flex;
     flex-direction: column;
     width: 30%;
+    border: 1px solid #E8EBE4;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .tabla{
@@ -21,4 +27,84 @@ main{
     align-items: center;
     width: 70%;
     text-align: center;
+    gap: 1px;
+}
+.tabla-inte img{
+    width: 30em;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 70px;
+}
+.tabla-int p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+
+}
+
+.perfil{
+    display: flex;
+    border-top: 1px solid #E8EBE4; 
+    gap: 15px;
+    padding: 1rem;
+}
+
+.perfil img{
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+
+}
+
+.principal img{
+    border-radius: 50%;
+    width: 5rem;
+    padding: 1rem;
+}
+
+.primer-chat .principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+
+
+}
+.chat-new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem;
+    border-top: 1px solid #E8EBE4;
+   
+    
+}
+
+.chat-new input{
+    width: 15rem;
+    height: 5rem;
+    background-color: #A491D2;
+    color: white;
+    border: #A491D2;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+
+    
 }
