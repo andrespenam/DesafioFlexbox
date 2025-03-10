@@ -30,7 +30,7 @@ main{
     gap: 1px;
 }
 .tabla-inte img{
-    width: 30em;
+    width: 20em;
 }
 
 h1{
@@ -53,7 +53,12 @@ h1{
     display: flex;
     border-top: 1px solid #E8EBE4; 
     gap: 15px;
-    padding: 1rem;
+    padding: 20px 50px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
 }
 
 .perfil img{
@@ -65,17 +70,17 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 15px 70px;
 
 }
 
 .principal img{
     border-radius: 50%;
     width: 5rem;
-    padding: 1rem;
+    
 }
 
-.primer-chat .principal{
+.primer-chat{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,4 +112,25 @@ h1{
     font-size: 1.5rem;
 
     
+}
+
+.user{
+    display: flex;
+    gap: 1rem;
+    padding: 15px 5px;
+}
+
+.icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.user small{
+    padding: 0;
+    margin: 0;
+}
+
+.user h3{
+    margin: 0;
+    padding: 0;
 }
